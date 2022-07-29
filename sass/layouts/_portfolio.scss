@@ -34,6 +34,12 @@
   }
 }
 
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
 
 .projects-list__item:hover,
 .projects-list__item:focus {
@@ -43,6 +49,7 @@
 .projects__thumb {
   position: relative;
   overflow: hidden;
+
 }
 
 .projects__about {
